@@ -1,0 +1,52 @@
+# Importer le module Active Directory
+Import-Module ActiveDirectory
+
+# Définir le chemin du fichier CSV
+$csvPath = "C:\Users\Administrator\Downloads\user.csv"
+
+# Définir le chemin LDAP de l'OU cible
+$ou = "OU=OU_Utilisateurs,DC=ecotechsolutions,DC=lan"
+
+# Importer les utilisateurs depuis le CSV
+$users = Import-Csv -Path $csvPath -Delimiter ';' # Notez le séparateur ';'
+
+foreach ($user in $users) {
+    try {
+        # Générer des champs nécessaires
+        $username = "$($user.Prenom).$($user.Nom)" -replace '\s', '' # Supprime les espaces dans l'identifiant
+        $email = "$username@ecotechsolutions.lan"
+        $password = ConvertTo-SecureString -String "P@ssw0rd!" -AsPlainText -Force # Mot de passe par défaut
+
+        # Vérifier si toutes les informations nécessaires sont présentes
+        if (-not $user.Prenom -or -not $user.Nom -or -not $user.Departement -or -not $user.Service) {
+            Write-Host "Les données sont incomplètes pour l'utilisateur : $username. Ignoré." -ForegroundColor Red
+            continue
+        }
+
+        # Vérifier si l'utilisateur existe déjà
+        $existingUser = Get-ADUser -Filter {SamAccountName -eq $username} -ErrorAction SilentlyContinue
+        if ($existingUser) {
+            Write-Host "L'utilisateur $username existe déjà. Ignoré." -ForegroundColor Yellow
+            continue
+        }
+
+        # Créer l'utilisateur dans Active Directory
+        New-ADUser -SamAccountName $username `
+                   -UserPrincipalName $email `
+                   -Name "$($user.Prenom) $($user.Nom)" `
+                   -GivenName $user.Prenom `
+                   -Surname $user.Nom `
+                   -DisplayName "$($user.Prenom) $($user.Nom)" `
+                   -Path $ou `
+                   -EmailAddress $email `
+                   -AccountPassword $password `
+                   -Enabled $true `
+                   -ChangePasswordAtLogon $false
+
+        Write-Host "Utilisateur $username créé avec succès." -ForegroundColor Green
+    } catch {
+        Write-Host "Une erreur s'est produite pour l'utilisateur $username : $_" -ForegroundColor Red
+    }
+}
+
+Write-Host "Tous les utilisateurs ont été traités."
