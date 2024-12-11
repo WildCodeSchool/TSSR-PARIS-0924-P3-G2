@@ -7,7 +7,7 @@
 3. [Détail des actions réalisées](#3-détail-des-actions-réalisées)
     - [3.1. Description des actions entreprises](#31-description-des-actions-entreprises)
     - [3.2. Résultats obtenus](#32-résultats-obtenus)
-6. [Bian des objectifs de la semaine](#6-bilan-des-objectifs-de-la-semaine)
+6. [Bilan des objectifs de la semaine](#6-bilan-des-objectifs-de-la-semaine)
 
 ---
 
