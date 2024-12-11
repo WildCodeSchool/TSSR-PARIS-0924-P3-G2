@@ -55,8 +55,18 @@ Bordeaux
 
 ### **Convention de Nommage** 
 - **Format** : `[Lieux]_[Department]_[Type][ID]`
-  - Localisation (Ville Paris, Bordeaux, Nantes)
+  - Localisation (Ville)
+    - `PAR` : Paris
+    - `BOR` : Bodeaux
+    - `NAN` : Nantes
   - Département (ex. : `COM : Communication`)
+    - `COM` : Communication
+    - `DEV` : Developpement
+    - `DIR`: Direction
+    - `RH` : Ressources Humaines
+    - `DSI` : DSI
+    - `FIN` : Finance et Comptabilité
+    - `SCOM` : Service Commercial
   - Type :
     - `LT` : Laptops
     - `DT` : Desktops
@@ -80,7 +90,7 @@ Bordeaux
 
 ### **Convention de Nommage** :
 - **Format** : `[FirstInitialLastName]_[Department]`
-  - Standard : `ATorres_COMM` : Ahmed Torres dans Développement.
+  - Standard : `ATorres_DEV` : Ahmed Torres dans Développement.
   - Homonymes : Ajouter deuxième lettre du prénom (ex. : `AHTorres_DEV`).
   - Temporaire : Préfixe `TMP_` (ex. : `TMP_ARahman`).
 
@@ -128,9 +138,9 @@ Bordeaux
 | Paris     | Développement                 | -         | BOR_DEV_LPT_EXT5         |
 | Bordeaux  | Direction                     | PA12959   | BOR_DIR_LPT_PA12959      |
 | Bordeaux  | Direction                     | PA75792   | BOR_DIR_LPT_PA75792      |
-| Bordeaux  | Direction des Ressources Humaines | PA31784 | BOR_DIR_LPT_PA31784      |
-| Bordeaux  | Direction des Ressources Humaines | PA66766 | BOR_DIR_LPT_PA66766      |
-| Bordeaux  | Direction des Ressources Humaines | PA20618 | BOR_DIR_LPT_PA20618      |
+| Bordeaux  | Direction des Ressources Humaines | PA31784 | BOR_RH_LPT_PA31784      |
+| Bordeaux  | Direction des Ressources Humaines | PA66766 | BOR_RH_LPT_PA66766      |
+| Bordeaux  | Direction des Ressources Humaines | PA20618 | BOR_RH_LPT_PA20618      |
 | Bordeaux  | DSI                           | PA21577   | BOR_DSI_LPT_PA21577      |
 | Bordeaux  | DSI                           | PA76820   | BOR_DSI_LPT_PA76820      |
 | Bordeaux  | DSI                           | PA85785   | BOR_DSI_LPT_PA85785      |
@@ -168,7 +178,6 @@ Bordeaux
 | Paris     | N/A                           | N/A       | Rout_Par1                |
 | Paris     | N/A                           | N/A       | Swit_Par1                |
 | Nantes    | N/A                           | N/A       | Rout_Nan1                |
-|           | N/A                           | N/A       | PRN_PAR_                 |
 | Bordeaux  | N/A                           | N/A       | SRV_BOR_DHCP_PC          |
 | Bordeaux  | N/A                           | N/A       | SRV_BOR_DNSAD_PC         |
 | Bordeaux  | N/A                           | N/A       | SRV_BOR_NAS_PC           |
