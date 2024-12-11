@@ -30,13 +30,20 @@ Ce document est destiné à rendre compte des actions réalisées chaque semaine
 ## 2. Objectifs de la semaine
 
 ### Résumé des tâches à réaliser :
-- xxx
-- xxx
-- xxx
-- xxx
-  - xxx
-  - xxx
-  - xxx
+- 1) AD-DS - Création d'un domaine AD
+    - a. Les 2 serveurs sont des DC du domaine et ont une réplication complète gérée		
+- 2) Gestion de l'arborescence (organigramme)		
+    - a. Création des groupes (mettre en place nomenclature)		
+    - b. Création des comptes (mettre en place nomenclature)		
+- 3) Organisation du GitHub		
+    - Rédiger les plans de la documentation ; README + INSTALL / sem + USER_GUIDE / sem		
+- 4) GPO de sécurité - Création d'au moins 5 GPO dont au moins 3 dans la liste + DOC :		
+    - a. Politique de mot de passe (complexité, longueur, etc.)		
+    - b. Gestion de Windows update (heure, délai avant installation, etc.)		
+- 5) GPO standard - Création d'au moins 5 GPO dont 3 dans la liste ci-dessous + DOC :
+    - a. Mappage de lecteurs		
+    - b. Déploiement (publication) de logiciels		
+    - c. Configuration des paramètres du navigateur (Firefox ou Chrome)		
 
 ---
 
