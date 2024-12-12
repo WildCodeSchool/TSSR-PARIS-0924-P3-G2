@@ -43,21 +43,21 @@ Bordeaux,Finance et Comptabilité,Service Comptabilité,Comptable,PA68447,BOR_FI
 Bordeaux,Finance et Comptabilité,Finance,Directeur financier,PA68867,BOR_FIN_LPT_PA68867
 Bordeaux,Finance et Comptabilité,Service Comptabilité,Comptable,PA30790,BOR_FIN_LPT_PA30790
 Bordeaux,Finance et Comptabilité,Service Comptabilité,Comptable,PA56314,BOR_FIN_LPT_PA56314
-Bordeaux,Service Commercial,ADV,Responsable ADV,PA16564,BOR_SCOM_LPT_PA16564
-Bordeaux,Service Commercial,ADV,Gestionnaire ADV,PA46917,BOR_SCOM_LPT_PA46917
-Bordeaux,Service Commercial,Service achat,Acheteur,PA59874,BOR_SCOM_LPT_PA59874
-Bordeaux,Service Commercial,Service achat,Acheteur,PA16013,BOR_SCOM_LPT_PA16013
-Bordeaux,Service Commercial,ADV,Gestionnaire ADV,PA16353,BOR_SCOM_LPT_PA16353
-Bordeaux,Service Commercial,Service achat,Responsable achat,PA19149,BOR_SCOM_LPT_PA19149
-Bordeaux,Service Commercial,B2B,Commercial,PA82880,BOR_SCOM_LPT_PA82880
-Bordeaux,Service Commercial,B2B,Commercial,PA90176,BOR_SCOM_LPT_PA90176
-Bordeaux,Service Commercial,,Directeur commercial,PA90233,BOR_SCOM_LPT_PA90233
-Bordeaux,Service Commercial,ADV,Gestionnaire ADV,PA37602,BOR_SCOM_LPT_PA37602
-Bordeaux,Service Commercial,B2B,Commercial,PA12427,BOR_SCOM_LPT_PA12427
-Bordeaux,Service Commercial,B2B,Commercial,PA44614,BOR_SCOM_LPT_PA44614
-Bordeaux,Service Commercial,Service Client,Agent,PA79817,BOR_SCOM_LPT_PA79817
-Bordeaux,Service Commercial,ADV,Gestionnaire ADV,PA64810,BOR_SCOM_LPT_PA64810
-Bordeaux,Service Commercial,Service Client,Agent,PA39395,BOR_SCOM_LPT_PA39395
+Bordeaux,Service Commercial,ADV,Responsable ADV,PA16564,BOR_SCO_LPT_PA16564
+Bordeaux,Service Commercial,ADV,Gestionnaire ADV,PA46917,BOR_SCO_LPT_PA46917
+Bordeaux,Service Commercial,Service achat,Acheteur,PA59874,BOR_SCO_LPT_PA59874
+Bordeaux,Service Commercial,Service achat,Acheteur,PA16013,BOR_SCO_LPT_PA16013
+Bordeaux,Service Commercial,ADV,Gestionnaire ADV,PA16353,BOR_SCO_LPT_PA16353
+Bordeaux,Service Commercial,Service achat,Responsable achat,PA19149,BOR_SCO_LPT_PA19149
+Bordeaux,Service Commercial,B2B,Commercial,PA82880,BOR_SCO_LPT_PA82880
+Bordeaux,Service Commercial,B2B,Commercial,PA90176,BOR_SCO_LPT_PA90176
+Bordeaux,Service Commercial,,Directeur commercial,PA90233,BOR_SCO_LPT_PA90233
+Bordeaux,Service Commercial,ADV,Gestionnaire ADV,PA37602,BOR_SCO_LPT_PA37602
+Bordeaux,Service Commercial,B2B,Commercial,PA12427,BOR_SCO_LPT_PA12427
+Bordeaux,Service Commercial,B2B,Commercial,PA44614,BOR_SCO_LPT_PA44614
+Bordeaux,Service Commercial,Service Client,Agent,PA79817,BOR_SCO_LPT_PA79817
+Bordeaux,Service Commercial,ADV,Gestionnaire ADV,PA64810,BOR_SCO_LPT_PA64810
+Bordeaux,Service Commercial,Service Client,Agent,PA39395,BOR_SCO_LPT_PA39395
 Bordeaux,DSI,,,WIN876,BOR_SRV_DHCP_PC
 Bordeaux,DSI,,,WIN875,BOR_SRV_DNSAD_PC
 Bordeaux,DSI,,,N/A,BOR_SRV_NAS_PC
