@@ -1,5 +1,5 @@
 param (
-    [string]$CsvFilePath = "C:\\chemin\\vers\\fichier.csv"
+    [string]$CsvFilePath = "C:\chemin\vers\fichier.csv"
 )
 
 # Vérifier si le fichier CSV existe
@@ -12,15 +12,20 @@ if (!(Test-Path -Path $CsvFilePath)) {
 $computers = Import-Csv -Path $CsvFilePath
 
 foreach ($computer in $computers) {
-    # Extraire les informations du fichier CSV
-    $site = $computer.Site
-    $department = $computer.Departement
-    $service = $computer.Service
-    $function = $computer.Fonction
-    $computerName = $computer."Nommage"
+    # Extraire les informations du fichier CSV et gérer les champs vides
+    $site = if ([string]::IsNullOrWhiteSpace($computer.Site)) { "NonSpécifié" } else { $computer.Site }
+    $department = if ([string]::IsNullOrWhiteSpace($computer.Departement)) { "NonSpécifié" } else { $computer.Departement }
+    $service = if ([string]::IsNullOrWhiteSpace($computer.Service)) { "NonSpécifié" } else { $computer.Service }
+    $function = if ([string]::IsNullOrWhiteSpace($computer.Fonction)) { "NonSpécifié" } else { $computer.Fonction }
+    $computerName = if ([string]::IsNullOrWhiteSpace($computer."Nommage")) {
+        Write-Warning "Nom d'ordinateur manquant. Ligne ignorée."
+        continue
+    } else {
+        $computer."Nommage"
+    }
 
     # Construire le chemin de l'OU
-    $ouPath = "OU=$function,OU=$service,OU=$department,DC=ecotechsolutions,DC=lan"
+    $ouPath = "OU=$function,OU=$service,OU=$department,OU=$site,OU=OU_Ordinateurs,DC=ecotechsolutions,DC=lan"
 
     # Vérifier si l'ordinateur existe déjà dans le domaine
     $existingComputer = Get-ADComputer -Filter { Name -eq $computerName } -ErrorAction SilentlyContinue
