@@ -42,7 +42,7 @@ Bordeaux
   - Department/Function : Identifier le département ou la fonction associée.
 
 ### **Exemples** :
-- `L_PC_SCOM` : Groupe global pour les utilisateurs du service commercial.
+- `L_PC_SCO` : Groupe global pour les utilisateurs du service commercial.
 - `G_US_DEV` : Groupe local pour les ordinateurs du département Développement.
 
 ---
@@ -66,7 +66,7 @@ Bordeaux
     - `RH` : Ressources Humaines
     - `DSI` : DSI
     - `FIN` : Finance et Comptabilité
-    - `SCOM` : Service Commercial
+    - `SCO` : Service Commercial
   - Type :
     - `LT` : Laptops
     - `DT` : Desktops
@@ -157,21 +157,21 @@ Bordeaux
 | Bordeaux  | Finance et Comptabilité       | PA68867   | BOR_FIN_LPT_PA68867      |
 | Bordeaux  | Finance et Comptabilité       | PA30790   | BOR_FIN_LPT_PA30790      |
 | Bordeaux  | Finance et Comptabilité       | PA56314   | BOR_FIN_LPT_PA56314      |
-| Bordeaux  | Service Commercial            | PA16564   | BOR_SCOM_LPT_PA16564     |
-| Bordeaux  | Service Commercial            | PA46917   | BOR_SCOM_LPT_PA46917     |
-| Bordeaux  | Service Commercial            | PA59874   | BOR_SCOM_LPT_PA59874     |
-| Bordeaux  | Service Commercial            | PA16013   | BOR_SCOM_LPT_PA16013     |
-| Bordeaux  | Service Commercial            | PA16353   | BOR_SCOM_LPT_PA16353     |
-| Bordeaux  | Service Commercial            | PA19149   | BOR_SCOM_LPT_PA19149     |
-| Bordeaux  | Service Commercial            | PA82880   | BOR_SCOM_LPT_PA82880     |
-| Bordeaux  | Service Commercial            | PA90176   | BOR_SCOM_LPT_PA90176     |
-| Bordeaux  | Service Commercial            | PA90233   | BOR_SCOM_LPT_PA90233     |
-| Bordeaux  | Service Commercial            | PA37602   | BOR_SCOM_LPT_PA37602     |
-| Bordeaux  | Service Commercial            | PA12427   | BOR_SCOM_LPT_PA12427     |
-| Bordeaux  | Service Commercial            | PA44614   | BOR_SCOM_LPT_PA44614     |
-| Bordeaux  | Service Commercial            | PA79817   | BOR_SCOM_LPT_PA79817     |
-| Bordeaux  | Service Commercial            | PA64810   | BOR_SCOM_LPT_PA64810     |
-| Bordeaux  | Service Commercial            | PA39395   | BOR_SCOM_LPT_PA39395     |
+| Bordeaux  | Service Commercial            | PA16564   | BOR_SCO_LPT_PA16564     |
+| Bordeaux  | Service Commercial            | PA46917   | BOR_SCO_LPT_PA46917     |
+| Bordeaux  | Service Commercial            | PA59874   | BOR_SCO_LPT_PA59874     |
+| Bordeaux  | Service Commercial            | PA16013   | BOR_SCO_LPT_PA16013     |
+| Bordeaux  | Service Commercial            | PA16353   | BOR_SCO_LPT_PA16353     |
+| Bordeaux  | Service Commercial            | PA19149   | BOR_SCO_LPT_PA19149     |
+| Bordeaux  | Service Commercial            | PA82880   | BOR_SCO_LPT_PA82880     |
+| Bordeaux  | Service Commercial            | PA90176   | BOR_SCO_LPT_PA90176     |
+| Bordeaux  | Service Commercial            | PA90233   | BOR_SCO_LPT_PA90233     |
+| Bordeaux  | Service Commercial            | PA37602   | BOR_SCO_LPT_PA37602     |
+| Bordeaux  | Service Commercial            | PA12427   | BOR_SCO_LPT_PA12427     |
+| Bordeaux  | Service Commercial            | PA44614   | BOR_SCO_LPT_PA44614     |
+| Bordeaux  | Service Commercial            | PA79817   | BOR_SCO_LPT_PA79817     |
+| Bordeaux  | Service Commercial            | PA64810   | BOR_SCO_LPT_PA64810     |
+| Bordeaux  | Service Commercial            | PA39395   | BOR_SCO_LPT_PA39395     |
 | Bordeaux  | Routeur Principal             | N/A       | BOR_RT_PRIN              |
 | Bordeaux  | Routeur Serveur               | N/A       | BOR_RT_SERV              |
 | Bordeaux  |Imprimante                     | N/A       | BOR_SCOMM_IMP             |
