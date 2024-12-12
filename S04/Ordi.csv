@@ -1,0 +1,64 @@
+Site,Departement,Service,Fonction,Nom de PC,Nommage
+Bordeaux,Communication,Communication interne,Community manager,PA11094,BOR_COM_LPT_PA11094
+Bordeaux,Communication,Communication interne,Community manager,PA19149,BOR_COM_LPT_PA19149
+Bordeaux,Communication,Relation Médias,Chargée relation presse,PA99009,BOR_COM_LPT_PA99009
+Bordeaux,Communication,Communication interne,Chargé en droit de la communication,PA88356,BOR_COM_LPT_PA88356
+Bordeaux,Communication,Communication interne,Chargé de communication,PA10218,BOR_COM_LPT_PA10218
+Bordeaux,Communication,Relation Médias,Rédacteur,PA92969,BOR_COM_LPT_PA92969
+Bordeaux,Communication,Relation Médias,Chargée relation presse,PA76764,BOR_COM_LPT_PA76764
+Bordeaux,Communication,,Directrice Communication et Relations publiques,PA68385,BOR_COM_LPT_PA68385
+Nantes,Communication,Relation Médias,Monteur,COMEXT1,NAN_COM_LPT_EXT1
+Bordeaux,Développement,Recherche et Prototype,Développeur,PA82471,BOR_DEV_LPT_PA82471
+Bordeaux,Développement,analyse et conception,Développeur,PA41987,BOR_DEV_LPT_PA41987
+Bordeaux,Développement,analyse et conception,Développeur,PA90613,BOR_DEV_LPT_PA90613
+Bordeaux,Développement,,Directeur Développement,PA93655,BOR_DEV_LPT_PA93655
+Bordeaux,Développement,Recherche et Prototype,Développeur,PA27339,BOR_DEV_LPT_PA27339
+Bordeaux,Développement,Développement,Développeur,PA69037,BOR_DEV_LPT_PA69037
+Bordeaux,Développement,Test et qualité,Développeur,PA83940,BOR_DEV_LPT_PA83940
+Bordeaux,Développement,Développement,Développeur,PA33002,BOR_DEV_LPT_PA33002
+Bordeaux,Développement,Développement,Développeur,PA48530,BOR_DEV_LPT_PA48530
+Paris,Développement,Test et qualité,Développeur,DEVEXT1,PAR_DEV_LPT_EXT1
+Paris,Développement,Test et qualité,Développeur,DEVEXT2,PAR_DEV_LPT_EXT2
+Paris,Développement,Test et qualité,Développeur,DEVEXT3,PAR_DEV_LPT_EXT3
+Paris,Développement,Test et qualité,Développeur,DEVEXT4,PAR_DEV_LPT_EXT4
+Paris,Développement,Test et qualité,Développeur,DEVEXT5,PAR_DEV_LPT_EXT5
+Bordeaux,Direction,,CEO,PA12959,BOR_DIR_LPT_PA12959
+Bordeaux,Direction,,Assistant de direction,PA75792,BOR_DIR_LPT_PA75792
+Bordeaux,Direction des Ressources Humaines,,Agent RH,PA31784,BOR_RH_LPT_PA31784
+Bordeaux,Direction des Ressources Humaines,,Agent RH,PA66766,BOR_RH_LPT_PA66766
+Bordeaux,Direction des Ressources Humaines,,Responsable recrutement,PA20618,BOR_RH_LPT_PA20618
+Bordeaux,DSI,Exploitation,Technicien d'exploitation,PA21577,BOR_DSI_LPT_PA21577
+Bordeaux,DSI,Exploitation,Technicien d'exploitation,PA76820,BOR_DSI_LPT_PA76820
+Bordeaux,DSI,,Responsable SI,PA85785,BOR_DSI_LPT_PA85785
+Paris,DSI,,,DSIEXT1,PAR_DSI_LPT_EXT1
+Paris,DSI,,,DSIEXT2,PAR_DSI_LPT_EXT2
+Paris,DSI,,,DSIEXT3,PAR_DSI_LPT_EXT3
+Paris,DSI,,,DSIEXT4,PAR_DSI_LPT_EXT4
+Paris,DSI,,,DSIEXT5,PAR_DSI_LPT_EXT5
+Bordeaux,Finance et Comptabilité,Finance,Controleur de gestion,PA57512,BOR_FIN_LPT_PA57512
+Bordeaux,Finance et Comptabilité,Finance,Controleur de gestion,PA12959,BOR_FIN_LPT_PA12959
+Bordeaux,Finance et Comptabilité,Finance,Analyste financier,PA34551,BOR_FIN_LPT_PA34551
+Bordeaux,Finance et Comptabilité,Fiscalité,Conseiller en fiscalité,PA31320,BOR_FIN_LPT_PA31320
+Bordeaux,Finance et Comptabilité,Service Comptabilité,Comptable,PA68447,BOR_FIN_LPT_PA68447
+Bordeaux,Finance et Comptabilité,Finance,Directeur financier,PA68867,BOR_FIN_LPT_PA68867
+Bordeaux,Finance et Comptabilité,Service Comptabilité,Comptable,PA30790,BOR_FIN_LPT_PA30790
+Bordeaux,Finance et Comptabilité,Service Comptabilité,Comptable,PA56314,BOR_FIN_LPT_PA56314
+Bordeaux,Service Commercial,ADV,Responsable ADV,PA16564,BOR_SCOM_LPT_PA16564
+Bordeaux,Service Commercial,ADV,Gestionnaire ADV,PA46917,BOR_SCOM_LPT_PA46917
+Bordeaux,Service Commercial,Service achat,Acheteur,PA59874,BOR_SCOM_LPT_PA59874
+Bordeaux,Service Commercial,Service achat,Acheteur,PA16013,BOR_SCOM_LPT_PA16013
+Bordeaux,Service Commercial,ADV,Gestionnaire ADV,PA16353,BOR_SCOM_LPT_PA16353
+Bordeaux,Service Commercial,Service achat,Responsable achat,PA19149,BOR_SCOM_LPT_PA19149
+Bordeaux,Service Commercial,B2B,Commercial,PA82880,BOR_SCOM_LPT_PA82880
+Bordeaux,Service Commercial,B2B,Commercial,PA90176,BOR_SCOM_LPT_PA90176
+Bordeaux,Service Commercial,,Directeur commercial,PA90233,BOR_SCOM_LPT_PA90233
+Bordeaux,Service Commercial,ADV,Gestionnaire ADV,PA37602,BOR_SCOM_LPT_PA37602
+Bordeaux,Service Commercial,B2B,Commercial,PA12427,BOR_SCOM_LPT_PA12427
+Bordeaux,Service Commercial,B2B,Commercial,PA44614,BOR_SCOM_LPT_PA44614
+Bordeaux,Service Commercial,Service Client,Agent,PA79817,BOR_SCOM_LPT_PA79817
+Bordeaux,Service Commercial,ADV,Gestionnaire ADV,PA64810,BOR_SCOM_LPT_PA64810
+Bordeaux,Service Commercial,Service Client,Agent,PA39395,BOR_SCOM_LPT_PA39395
+Bordeaux,DSI,,,WIN876,BOR_SRV_DHCP_PC
+Bordeaux,DSI,,,WIN875,BOR_SRV_DNSAD_PC
+Bordeaux,DSI,,,N/A,BOR_SRV_NAS_PC
+Bordeaux,DSI,,,DEB880,BOR_SRV_GLPI_PC
