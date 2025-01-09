@@ -21,7 +21,7 @@ Ce projet a permis de mettre en pratique la gestion de réseaux d’entreprises 
 
 Le projet a été mené par cinq membres répartis sur 11 semaines. Chaque semaine, deux rôles clés ont été assignés selon un système de binômes : **Product Owner** (PO) et **Scrum Master** (SM). Les rôles ont été attribués comme suit :
 
-| Semaine | Alexandra CLERY   | Mamadou KONATE   | Gebril NESRI   | Hicham ZGUIOUAR   | Christian CHAMBRAUD |
+| Semaine |     Alexandra     |     Mamadou      |     Gebril     |      Hicham       |      Christian      |
 |---------|-------------------|------------------|----------------|-------------------|---------------------|
 | 1       |                   |                  |                | SM                | PO                  |
 | 2       | PO                |                  | SM             |                   |                     |
